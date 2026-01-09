@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Portfolio</title>
+
+<style>
+* {
+  box-sizing: ; border-radius: ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  margin: 0;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #2196F3;
+  color: white;
+  padding: 20px;
+  width: 30%;
+}
+
+/* Main Content */
+.main {
+  background: white;
+  padding: 20px;
+  width: 70%;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar, .main {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sakshi Kolapkar</h1>
+  <p>Web Developer</p>
+</header>
+
+<div class="container">
+  <div class="sidebar">
+    <h3>About Me</h3>
+    <p>I am a beginner web developer learning HTML, CSS, and responsive design.</p>
+  </div>
+
+  <div class="main">
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
